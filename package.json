@@ -1,14 +1,17 @@
 {
-  "name": "escape-html",
+  "name": "@patchtogo.ai/escape-html",
   "description": "Escape string for use in HTML",
-  "version": "1.0.3",
+  "version": "1.0.3-ptg.1",
   "license": "MIT",
   "keywords": [
     "escape",
     "html",
     "utility"
   ],
-  "repository": "component/escape-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patchtogo-ai/escape-html.git"
+  },
   "devDependencies": {
     "benchmark": "1.0.0",
     "beautify-benchmark": "0.2.4"
@@ -16,9 +19,13 @@
   "files": [
     "LICENSE",
     "Readme.md",
-    "index.js"
+    "index.js",
+    "PATCHTOGO.md"
   ],
   "scripts": {
     "bench": "node benchmark/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

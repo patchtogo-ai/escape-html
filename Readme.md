@@ -1,3 +1,7 @@
+> [!WARNING]
+> **Unofficial patched fork.** `@patchtogo.ai/escape-html` is [`escape-html`](https://www.npmjs.com/package/escape-html) 1.0.3 with security fixes from [patchtogo](https://patchtogo.ai), under its original licence (MIT).
+> It is not maintained by or affiliated with the upstream authors. The original lives at https://github.com/component/escape-html; see [PATCHTOGO.md](PATCHTOGO.md) for attribution.
+
 
 # escape-html
 
