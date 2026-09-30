@@ -35,6 +35,7 @@ assert.strictEqual(
 );
 
 // Existing behaviour must be unchanged.
+assert.strictEqual(escapeHtml(''), '');
 assert.strictEqual(escapeHtml('no specials'), 'no specials');
 assert.strictEqual(escapeHtml('"&\'<>'), '&quot;&amp;&#39;&lt;&gt;');
 
